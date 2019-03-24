@@ -35,6 +35,19 @@ public class Main {
         Person person2 = new Person(1,"you", "souare", "Wondy");
 
         Person person3 = new Person();
+        Person p5 = new Person();
+        Person p6 = new Person(2, "Youssouf", "Souare", "Denmark");
+
+        List<Person> newPerson = new ArrayList<Person>();
+
+        newPerson.add(p6);
+        newPerson.add(person2);
+
+        for (Person p : newPerson) {
+            System.out.println(p.toString());
+        }
+
+
 
 
 
